@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "untitled"
+version = "1.0.0"
+description = "The untitled project."
+authors = ["Sadra Samadi <sadra.smd@gmail.com>"]
+
+[tool.poetry.dependencies]
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+pillow = "^9.5.0"
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
